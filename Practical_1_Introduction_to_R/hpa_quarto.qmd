@@ -1,0 +1,19 @@
+---
+title: "MB1A practical 1-hpa"
+author: "marianne szuba"
+---
+
+Some genes are classified as regionally elevated if they showed distinctly higher expression in these regions than in the rest of the brain. 
+I want to calculate the total number of genes with regional expression in the forebrain--cerebral cortex, basal ganglia, thalamus, and hypothalamus--regions in human, pig, and mouse.
+
+```{r}
+# This code calculates the total number of genes with regionally elevated expression in the forebrain of humans
+sum(180, 83, 57, 110)
+
+# This code calculates the total number of genes with regionally elevated expression in the forebrain of pigs
+sum(109, 157, 31, 45)
+
+# This code calculates the total number of genes with regionally elevated expression in the forebrain of mice
+sum(55, 185, 60, 98)
+```
+Humans have the *highest* number of genes with regionally elevated expression in the forebrain
